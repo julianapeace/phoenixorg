@@ -33,6 +33,7 @@ body {
   border-radius: 10px;
 }
 
+
 p {
   font-size: 0.6em;
   color: #BA7E7E;
@@ -51,14 +52,11 @@ h2 {
 }
 
 img {
-  width: 290px;
+  /* width: 290px; */
+  width: 50%;
   /* margin-top: 47px; */
 }
 
-.slideshow-buttons {
-  top: 70%;
-  display: none;
-}
 
 .product {
   position: absolute;
@@ -103,37 +101,6 @@ button:hover {
 
 .like {
   width: 22%;
-}
-
-.sizes {
-  display: grid;
-  color: #D9AAB7;
-  grid-template-columns: repeat(auto-fill, 30px);
-  width: 60%;
-  grid-gap: 4px;
-  margin-left: 20px;
-  margin-top: 5px;
-}
-.sizes:hover {
-  cursor: pointer;
-}
-
-.pick {
-  margin-top: 11px;
-  margin-bottom: 0;
-  margin-left: 20px;
-}
-
-.size {
-  padding: 9px;
-  border: 1px solid #E0C9CB;
-  font-size: 0.7em;
-  text-align: center;
-}
-.size:hover {
-  background: #BA7E7E;
-  color: #F5F5F5;
-  transition: all 0.4s ease-in-out;
 }
 
 .focus {
